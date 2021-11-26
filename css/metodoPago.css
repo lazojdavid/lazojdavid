@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+.tabla{
+table-layout: fixed;
+  width: 100%;
+  border:10px solid yellow;
+  border-radius: 30px;
+  background-color:rgb(80, 78, 78);
+  border-spacing: 0px;
+}
+body{
+    background-color: green;
+}
+.a1{
+    border-right: 2px solid rgba(255, 255, 255, 0.329);
+
+}
+.a2{
+    border-left: 2px solid rgba(255, 255, 255, 0.329);
+}
+h1{
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.c{
+    text-align: center;
+    padding-top: 30px;
+}
+img{
+    height: 500px;
+    margin: auto;
+}
+h3{
+    margin: 0%;
+    size: 12px;
+}
+.ventanaPago{
+    margin: auto;
+    width: 60%;
+    color: wheat;
+}
+a{
+    text-decoration: none;
+    color: wheat;
+}
+.btton{
+    background-color: rgb(33, 33, 218);
+    margin: 20px;
+    padding: 8px 100px 8px 100px ;
+    display: inline-block;
+    box-shadow:5px 1px 5px;
+    transition: 1200ms;
+}
+.btton0{
+    background-color: rgb(85, 85, 87);
+    color: black;
+    text-shadow: 8px 100px 8px 100px;
+    margin: 20px;
+    padding: 10px ;
+    display: inline-block;
+    transition: 1200ms;
+}
+.btton:hover{
+    background-color: rgb(88, 29, 143);
+    box-shadow: 0px 0px 0px 5px;
+    border-radius: 300px;
+    color: rgb(87, 84, 84);
+}
+.inicio{
+    background-color: rgb(85, 85, 87);
+    color: black;
+    text-shadow: 8px 100px 8px 100px;
+    margin: 20px;
+    padding: 10px ;
+    display: inline-block;
+    transition: 700ms;
+}
+.inicio:hover{
+    background-color: rgb(88, 29, 143);
+    box-shadow: 0px 0px 0px 5px;
+    border-radius: 300px;
+    color: rgb(87, 84, 84);
+}

@@ -1,0 +1,242 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+.cuerpo {
+    padding: 10PX;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Barlow Condensed', sans-serif;
+  
+}
+.menu {
+    list-style: none;
+    padding: 0;
+    background: yellowgreen;
+    width: 90%;
+    max-width: 840px;
+    margin: auto;
+    border-radius: 8px;
+    
+}
+
+.menu-item {
+    background: yellowgreen;
+    display: inline-block;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.menu-item a {
+    color: rgba(255, 255, 255, 0.459);
+    padding: 15px 18px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-item a:hover {
+    color: black
+}
+.menu-item-Search{
+    padding-bottom: 10px;
+}
+.menu-bot{
+    display: none;
+    padding: 20px;
+    
+}
+
+
+
+
+
+
+
+h4, h2,small,a{
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+a{
+    text-decoration: none;
+}
+.Carousel{
+    width: 70%;
+    height: 90px;
+    align-items: center;
+    margin: 0px 60px;
+    position: initial;
+    
+}
+.Carousel h2{
+    font-size: 26px;
+    line-height: 38px;
+    padding-bottom: 24px;
+    opacity: .9;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+/* imagenes */
+
+.slick-list{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 204px;
+    padding: 10px 0px;
+    margin: 0px auto;
+    max-width: 90vw;
+    overflow: hidden;
+}
+.slick-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+.slick{
+    position: relative;
+    width: 275px;
+    padding: 0 18px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+}
+.slick h4{
+    position: absolute;
+    z-index: 1;
+    font-size: 22px;
+    line-height: 23px;
+    color: #fff;
+    padding: 15px;
+}
+.slick h4 small{
+    font-size: 15px;
+    display: block;
+}
+.slick a img{
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
+    transition: .3s ease-in-out;
+}
+.slick a img:hover{
+    opacity: .85;
+}
+
+/* botones */
+
+.slick-arrow{
+    border-radius: 30px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 4;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+    border: 0;
+    cursor: pointer;
+}
+.slick-arrow:focus{
+    outline: 0;
+}
+.slick-arrow svg{
+    width: 12px;
+    height: 100%;
+    color: rgba(0,0,0,.7);
+}
+.slick-prev{
+    left: 0px;
+}
+.slick-next{
+    right: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    body{
+        width: 80%;
+        background-size: 50%;
+    }
+    .cuerpo {
+        padding: 5PX;
+        background-size: 100px;
+        max-width: 400px;
+    }
+    .container{
+        width: 100%;
+        display:contents;
+    }
+    .menu {
+        list-style-type:none;
+        padding: 2px;
+        background: yellowgreen;
+        width: 145%;
+        margin: auto;
+        border-radius: 8px;
+        width: 115%;
+    }
+    .menu-option{
+        display: none;
+    }
+    .menu-item{
+        display: block;
+        background-color: aqua;
+        padding: 10px 10px;
+    }
+    .menu-bot{
+        display: block;
+        padding: 20px;
+    }
+    .menu-item-Search{
+        display: block;
+        margin: 20px;
+    }
+    .menu-item-boton{
+        display: block;
+        float: left;
+    }
+    .menu-item-boton:hover{
+        background-color: rgba(0, 0, 0, 0.301);
+        transition: 1ms;
+        transform-origin: 1ms;
+    }
+    .container{
+        display: none;
+    }
+}

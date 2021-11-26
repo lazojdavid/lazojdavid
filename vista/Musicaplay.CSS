@@ -1,0 +1,41 @@
+.list-music{
+    margin: 80px 10px 0px 10px;
+}
+.icono-musica{
+    float:left;
+    
+}
+.icono-musica i{
+    color:white;
+    font-size: 35px;
+    margin: 10px 20px;
+    padding: 20px;
+    transition: 500ms;
+}
+.nombre-musica{
+    float: left;
+    display: flex;
+}
+.nombre-musica p{
+    color: white;
+    font-size: 30px;
+    margin: 10px 20px;
+    padding: 20px;
+}
+.imagen-musica{
+    float: right;
+    line-height: 28px;
+}
+.imagen-musica img{
+    width: 140px;
+    height: 95px;
+    
+}
+.icono-musica i:hover{
+    color: darkgreen;
+    transition: 500ms;
+}
+.AUDIO{
+    margin-top: 50px;
+    width: 100%;
+}

@@ -1,0 +1,66 @@
+@import url('normalize.css');
+@import url('bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+body, 
+html{
+	height: 100%;
+    color: antiquewhite;
+	width: 100%;
+	font-size: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+	position: relative; 
+	background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.form-control{
+	font-size: 15px;
+	width: 90%;
+}
+
+h1{
+	text-align: center;
+}
+
+.button{
+	border: none;
+	width: 100%;
+	font-size: 20;
+	background-color: antiquewhite;
+	padding: 15px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	
+}
+.button:hover{
+	background: cadetblue;
+
+	
+}
+p{
+	text-align: center;
+}
+
+
+.login{
+	width: 400px;
+	border:3px solid #E1E1E1;
+	border-radius: 5px;
+	padding: 20px 90px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+
+}
+
+
+
+
+@media (max-width: 400px){
+	.login{
+		width: 90%;
+	}
+}

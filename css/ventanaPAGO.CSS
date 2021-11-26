@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+H1{
+    color: azure;
+}
+.modo-activado{
+    color: beige;
+}
+.modo-desactivado{
+    display:none;
+}
+img{
+ height: 40px;  
+}
+fieldset{
+    background-color: rgba(57, 57, 134, 0.39);
+}
+body{
+    background-size: 1440px;
+    background-position-y: 50%;
+}
+.nombre{
+    
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: flexbox;
+}
+.apellido{
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flexbox;
+}
+.numero-de-tarjeta{
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flexbox;
+}
+.codigo-seguridad{
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flexbox;
+}
+.codigo-postal{
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flexbox;
+}
+.pagar{
+    background: blue;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: rgb(255, 255, 255) solid;
+    box-shadow:5px 1px 5px;
+    transition: 500ms;
+    display:inline;
+}
+.pagar:active{
+    background-color:rgb(53, 53, 53) ;
+    color: white;
+}
+.recibo-activado{
+    color: azure;
+    width: 60%;
+    background-color: rgba(57, 57, 134, 0.39);
+    margin: auto;
+    border:2px solid white;
+    text-align: center;
+}
+.recibo-desactivado{
+    display:none;
+}
+.imagenrecibo{
+    width: 300px;
+    height: 350px;
+}
+p{
+    font-size: 24px;
+}
+.inicio{
+    background-color: rgb(85, 85, 87);
+    color: black;
+    text-shadow: 8px 100px 8px 100px;
+    margin: 20px;
+    padding: 10px ;
+    display: inline-block;
+    transition: 700ms;
+}
+.inicio:hover{
+    background-color: rgb(88, 29, 143);
+    box-shadow: 0px 0px 0px 5px;
+    border-radius: 300px;
+    color: rgb(87, 84, 84);
+}
+a{
+    text-decoration: none;
+    color: wheat;
+}

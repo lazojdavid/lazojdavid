@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+.cuerpo {
+    padding: 10PX;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.list-music{
+    display: block;
+}
+.menu {
+    list-style: none;
+    padding: 0;
+    background: yellowgreen;
+    width: 90%;
+    max-width: 840px;
+    margin: auto;
+    border-radius: 8px;  
+}
+
+.menu-item {
+    background: yellowgreen;
+    display: inline-block;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.menu-item a {
+    color: rgba(255, 255, 255, 0.459);
+    padding: 15px 18px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-item a:hover {
+    color: black
+}
+.menu-item-Search{
+    padding-bottom: 10px;
+}
+.menu-bot{
+    display: none;
+    padding: 20px;
+    
+}
+
+
+
+
+
+
+
+
